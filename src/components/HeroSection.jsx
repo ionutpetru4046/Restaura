@@ -3,7 +3,7 @@
 const HeroSection = () => {
   return (
     <div>
-      hero section
+      hero section new
     </div>
   )
 }
