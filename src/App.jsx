@@ -1,4 +1,4 @@
-import DishCard from "./components/DishCard"
+import Dishes from "./components/Dishes"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/NavBar"
 
@@ -7,7 +7,7 @@ const App = () => {
     <main className="overflow-y-hidden text-neutral-200 antialiased">
       <HeroSection />
       <Navbar />
-      <DishCard />
+      <Dishes />
     </main>
   )
 }
