@@ -15,6 +15,11 @@ const About = () => {
             <h2 className="text-4xl tracking-tighter lg:text-6xl">
               {ABOUT.header}
             </h2>
+            <div className="mb-8 mt-1 h-2 w-36 bg-rose-300 lg:-rotate-3">
+            </div>
+            <p className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl">
+              {ABOUT.content}
+            </p>
           </div>
         </div>
     </section>
