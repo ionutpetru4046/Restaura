@@ -12,17 +12,17 @@ const Expertise = () => {
             <div className="flex-shrink-0 pr-8 text-2xl">{cusine.number}
               </div>
               <div className="w-1/3 flex-shrink-0">
-                <img src={cusine.image} 
+                <img src={cusine.image}
                      alt={cusine.title}
                      className="h-auto rounded-3xl" />
               </div>
               <div className="pl-8">
               <h3 className="text-2xl uppercase tracking-tighter text-rose-300">
-                {cusine.title}  
+                {cusine.title}
               </h3>
               <p className="mt-4 text-lg tracking-tighter">
                   {cusine.description}
-                </p>              
+                </p>
               </div>
             </div>
           ))}
