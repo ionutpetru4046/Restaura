@@ -1,6 +1,5 @@
 import { DISHES } from "../constants"
 import DishCard from "./DishCard"
-
 const Dishes = () => {
   return (
     <section className="container mx-auto py-16" id="dishes">

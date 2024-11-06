@@ -1,6 +1,5 @@
 import about from "../assets/about.jpeg"
 import { ABOUT } from "../constants"
-
 const About = () => {
   return (
     <section className="container mx-auto mb-8" id="about">

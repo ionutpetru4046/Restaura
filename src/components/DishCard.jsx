@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-
 const DishCard = ({ project }) => {
   return (
     <div>

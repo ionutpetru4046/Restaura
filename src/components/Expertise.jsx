@@ -1,5 +1,4 @@
 import { CUSINES } from "../constants"
-
 const Expertise = () => {
   return (
     <section id="expertise">
