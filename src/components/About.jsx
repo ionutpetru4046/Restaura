@@ -21,11 +21,21 @@ const About = () => {
             className="text-4xl tracking-tighter lg:text-6xl">
               {ABOUT.header}
             </motion.h2>
-            <div className="mb-8 mt-1 h-2 w-36 bg-rose-300 lg:-rotate-3">
-            </div>
-            <p className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl">
+            <motion.div 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="mb-8 mt-1 h-2 w-36 bg-rose-300 lg:-rotate-3">
+            </motion.div>
+            <motion.p 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl">
               {ABOUT.content}
-            </p>
+            </motion.p>
           </div>
         </div>
     </section>
