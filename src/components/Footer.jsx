@@ -1,4 +1,5 @@
 import { SOCIAL_MEDIA_LINKS } from "../constants"
+
 const Footer = () => {
   return (
     <div className="mb-8 mt-20">
